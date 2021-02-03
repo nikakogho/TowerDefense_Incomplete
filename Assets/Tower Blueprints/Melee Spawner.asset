@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41efb39b7d890454589cd828088b65d3, type: 3}
+  m_Name: Melee Spawner
+  m_EditorClassIdentifier: 
+  name: Melee Spawner
+  description: This guy spawns some melee troops that fight the enemies
+  firstLevel:
+    prefab: {fileID: 1707599122453906, guid: 2f8fec11781fb3049b731c72fa821898, type: 2}
+    icon: {fileID: 21300000, guid: b7d552a01738272419c83c87d6d4ec37, type: 3}
+    cost: 170
+    buildEffect: {fileID: 0}
+    destroyEffect: {fileID: 0}
+  upgrades:
+  - prefab: {fileID: 1970958828829478, guid: 66de37afed6139045b9b3bb2cc490edb, type: 2}
+    icon: {fileID: 21300000, guid: be3fecafd0f323a4c814e5a5e53afa69, type: 3}
+    cost: 300
+    buildEffect: {fileID: 0}
+    destroyEffect: {fileID: 0}
+  - prefab: {fileID: 1742003962573784, guid: e7a14a42998989142933c535f50fd4b3, type: 2}
+    icon: {fileID: 21300000, guid: a237b05ecd001cf49867de698bb53c07, type: 3}
+    cost: 500
+    buildEffect: {fileID: 0}
+    destroyEffect: {fileID: 0}
+  - prefab: {fileID: 1519006503733242, guid: 90771cd237db64f43a1ba0ab34703ea2, type: 2}
+    icon: {fileID: 21300000, guid: c060dc1ccbbedca4f8b7173229773ad1, type: 3}
+    cost: 1000
+    buildEffect: {fileID: 0}
+    destroyEffect: {fileID: 0}

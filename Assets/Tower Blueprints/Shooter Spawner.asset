@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41efb39b7d890454589cd828088b65d3, type: 3}
+  m_Name: Shooter Spawner
+  m_EditorClassIdentifier: 
+  name: Shooter Spawner
+  description: This guy spawns some range troops that shoot
+  firstLevel:
+    prefab: {fileID: 1956103824499360, guid: de62171be2dfd1f45a7a6dd7c077c6d1, type: 2}
+    icon: {fileID: 21300000, guid: a1a1ad524556d44458d2f962983c45ac, type: 3}
+    cost: 240
+    buildEffect: {fileID: 0}
+    destroyEffect: {fileID: 0}
+  upgrades:
+  - prefab: {fileID: 1954785589148638, guid: 14b06c79a0a429d42bc129dd82f61648, type: 2}
+    icon: {fileID: 21300000, guid: 47ddc12c3dd00d348a4703aa736cbeba, type: 3}
+    cost: 400
+    buildEffect: {fileID: 0}
+    destroyEffect: {fileID: 0}
+  - prefab: {fileID: 1502175153105256, guid: 93fbe7c81f52cd54fb89efb2455f4085, type: 2}
+    icon: {fileID: 21300000, guid: 35e8194b85918e64c870487574b0c7b1, type: 3}
+    cost: 700
+    buildEffect: {fileID: 0}
+    destroyEffect: {fileID: 0}
+  - prefab: {fileID: 1911576017724180, guid: cb4ca3c9e45729746b4a5f579282341f, type: 2}
+    icon: {fileID: 21300000, guid: affb70c938ae00844949e80f5aa3c0d2, type: 3}
+    cost: 1200
+    buildEffect: {fileID: 0}
+    destroyEffect: {fileID: 0}
